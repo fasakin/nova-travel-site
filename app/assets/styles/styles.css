@@ -1,3 +1,9 @@
-body{
-    font-size: 34px;
-}
+@import 'normalize.css';
+@import 'base/_variable';
+@import 'base/_mixins';
+@import 'base/_global';
+@import 'modules/_large-hero';
+@import 'modules/_btn';
+@import 'modules/_wrapper';
+@import 'modules/_page_section'
+
