@@ -22,6 +22,11 @@
             margin-left:0;
             display: inline;
             margin-bottom:0;
+            position: relative;
+            top: 8px;
         }
+    }
+    &--blue {
+        color: $mainBlue;
     }
 }
