@@ -1,9 +1,11 @@
 .large-hero {
   position: relative;
   border-bottom: 10px solid $mainBlue;
+  
 
   &__text-content {
     position: absolute;
+    padding-top: 60px;
     top: 50%;
     left: 50%;
     text-align: center;
