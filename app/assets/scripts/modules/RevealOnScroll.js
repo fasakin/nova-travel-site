@@ -11,7 +11,6 @@ class RevealOnScroll {
     this.events()
   }
 calcCaller(){
-      console.log('item is scrollling')
     this.itemToReveal.forEach(el => {
        if(!el.isRevealed){
         this.calculateIfScrollTo(el)
@@ -47,7 +46,6 @@ calcCaller(){
   events() {
     window.addEventListener('scroll', this.scrollThrottle)
     window.addEventListener('resize', debounce(()=> {
-      console.log('resize just ran')
       this.browserHeight = window.innerHeight
     }, 333))
   }
