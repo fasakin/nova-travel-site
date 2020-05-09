@@ -11,6 +11,7 @@ new RevealOnScroll(document.querySelectorAll(".testimonial"), 60);
 let modal;
 
 
+
 document.querySelectorAll(".open-modal").forEach((el) => {
   el.addEventListener("click", (e) => {
     e.preventDefault();
