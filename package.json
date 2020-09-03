@@ -20,7 +20,7 @@
   "homepage": "https://github.com/fasakin/novamarks-travel-site#readme",
   "dependencies": {
     "autoprefixer": "^9.7.6",
-    "lazysizes": "^5.2.0",
+    "lazysizes": "^5.2.1",
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1",
     "postcss-nested": "^4.2.1",
